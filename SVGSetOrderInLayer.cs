@@ -1,3 +1,8 @@
+// (c) Copyright HutongGames, LLC 2010-2018. All rights reserved.
+/*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
+// Created by Thor (Thore) Erendrood
+// “Synchronicity is as universal as gravity. When you start looking you find it everywhere.” 
+
 using UnityEngine;
 
 namespace HutongGames.PlayMaker.Actions
