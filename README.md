@@ -14,7 +14,7 @@ My cheaply adapted version that uses Input.GetAxisRaw instead of Input.GetAxis. 
 Combines both *Get Axis* and *GetAxisRaw* in one action, with a bool to change which version is used. This is intended to be a prototype action to play around and get a sense of what works best, because normally you'll settle for one type. [PM Forum Post](http://hutonggames.com/playmakerforum/index.php?topic=19333)
 
 ## Get Axis To Button Down (Store)
-Take the axis you provide, and treat the directions as buttons ("Negative Button" and "Positive Button", and also the alternatives as listed in Input Manager). To do this right now, you would get the axis, store it into a variable, and then feed it into a float compare. This makes it in one go. The store version can also store if the button was pressed (it's a bit sleeker, but won't make much of a difference on performance).
+Take the axis you provide, and treat the directions as buttons ("Negative Button" and "Positive Button", and also the alternatives as listed in Input Manager). To do this right now, you would get the axis, store it into a variable, and then feed it into a float compare. This makes it in one go. The store version can also store if the button was pressed (it's a bit sleeker, but won't make much of a difference on performance). [PM Forum Post](http://hutonggames.com/playmakerforum/index.php?topic=19499)
 
 ## Get Button Down And Axis
 You look for a simple way for Button+Direction input? When a Button is pressed, sends an event based on current axis direction, i.e. up+button, left+button for fighting games, combos etc. If you only want to use one direction (say, only up+button), simply leave the other one (down+button) blank.
