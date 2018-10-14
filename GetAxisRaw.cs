@@ -1,5 +1,5 @@
 // (c) Copyright HutongGames, LLC 2010-2018. All rights reserved.
-// Cheaply adapted by Thore. Just uses Input.GetAxisRaw instead of Input.GetAxis. That's all, but very usefal for snappy input.
+// Cheaply adapted by Thore. Just uses Input.GetAxisRaw instead of Input.GetAxis. That's all, but very useful for snappy input.
 
 using UnityEngine;
 
