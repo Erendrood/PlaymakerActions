@@ -109,22 +109,7 @@ namespace HutongGames.PlayMaker.Actions
                 storeIsUp.Value = false;
             }
 
-
+          } // METHOD
           
-
-
-
-
-
-
-            }
-
-
-
-        }
-        
-       
-
- }
-
-
+    } // CLASS
+} // NAMESPACE
