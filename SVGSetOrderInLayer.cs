@@ -4,7 +4,7 @@ namespace HutongGames.PlayMaker.Actions
 {
 
     [ActionCategory("Sprite")]
-    [Tooltip("Set the 'Order in Layer' property in a SVG Importer SpriteRenderer.")]
+    [Tooltip("Set the 'Order in Layer' property in a SVG Importer SpriteRenderer. Note: the original SVG Importer paid asset, not Unity's that is in development.")]
     public class SVGSetOrderInLayer : FsmStateAction
     {
         [RequiredField]
