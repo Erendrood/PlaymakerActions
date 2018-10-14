@@ -1,5 +1,7 @@
 // (c) Copyright HutongGames, LLC 2010-2018. All rights reserved.
-// Cheaply adapted by Thore. Just uses Input.GetAxisRaw instead of Input.GetAxis. That's all, but very useful for snappy input.
+/*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
+// Cheaply adapted by Thor (Thore) Erendrood. Just uses Input.GetAxisRaw instead of Input.GetAxis. 
+// That's all, but very useful for snappy input.
 
 using UnityEngine;
 
