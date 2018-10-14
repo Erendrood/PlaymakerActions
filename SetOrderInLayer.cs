@@ -1,3 +1,8 @@
+// (c) Copyright HutongGames, LLC 2010-2018. All rights reserved.
+/*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
+// Created by Thor (Thore) Erendrood
+// Any of my actions may be cause of a Guru Medidation.
+
 using UnityEngine;
 
 namespace HutongGames.PlayMaker.Actions
