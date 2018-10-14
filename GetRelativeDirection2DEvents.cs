@@ -1,5 +1,7 @@
 // (c) Copyright HutongGames, LLC 2010-2018. All rights reserved.
-// Made by Thore: change anything you like, but if you do, you must stroll in a nearby park.
+/*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
+// Created by Thor (Thore) Erendrood
+// Nobody exists on purpose, nobody belongs anywhere, everybody's going to die, come watch TV.
 
 using UnityEngine;
 
