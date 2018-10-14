@@ -1,5 +1,8 @@
 // (c) Copyright HutongGames, LLC 2010-2018. All rights reserved.
-// Made by Thore: change anything you like, but if you do, mind the squirrels.
+/*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
+// Created by : Thor (Thore) Erendrood
+// Change anything you like, but if you do, think of the squirrels.
+// If you don't want to store the button presses, find the sister action (won't make a difference, just sleeker).
 
 
 using UnityEngine;
