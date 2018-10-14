@@ -1,3 +1,8 @@
+// (c) Copyright HutongGames, LLC 2010-2018. All rights reserved.
+/*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
+// Created by Thor (Thore) Erendrood
+// Don't trust any advice that begins with //
+
 using UnityEngine;
 using SVGImporter;
 
@@ -5,7 +10,7 @@ namespace HutongGames.PlayMaker.Actions
 {
 
 	[ActionCategory("Sprite")]
-	[Tooltip("Set the color property in a SVG SpriteRenderer.")]
+	[Tooltip("Set the color property in a SVG SpriteRenderer (paid asset, SVG Importer).")]
 	public class SVGSpriteColor : FsmStateAction
 	{
 		[RequiredField]
