@@ -1,6 +1,7 @@
-﻿// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-// http://hutonggames.com/playmakerforum/index.php?topic=63.0
-// Thanks: MaDDoX
+// (c) Copyright HutongGames, LLC 2010-2018. All rights reserved.
+/*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
+// Based on an action by MaDDoX (http://hutonggames.com/playmakerforum/index.php?topic=63.0)
+// Adapted by Thor (Thore) Erendrood.
 
 using UnityEngine;
 
