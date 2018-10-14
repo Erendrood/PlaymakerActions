@@ -1,4 +1,7 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
+// (c) Copyright HutongGames, LLC 2010-2018. All rights reserved.
+/*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
+// Created by : Thor (Thore) Erendrood
+// Thomas Moore is one of my favourite Monty Python sketches. Maybe not all-time-favourite, but up there with the other very good sketches. At least most of the time.
 
 using UnityEngine;
 
