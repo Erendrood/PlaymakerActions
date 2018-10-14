@@ -29,9 +29,8 @@ namespace HutongGames.PlayMaker.Actions
         [Tooltip("Store the Y direction in a float variable.")]
         public FsmFloat storeDirectionY;
 
-
-        //  public Space space;                                       // see block below, if somehow world/local space switch is needed.
-
+    // see block below, if somehow world/local space switch is needed.
+        //  public Space space;                                       
 
         [UIHint(UIHint.Variable), Readonly]
         [Tooltip("Option to store vertical direction to target in a bool. (e.g. 'storeIsRight = false' target is leftwards.")]
@@ -73,10 +72,7 @@ namespace HutongGames.PlayMaker.Actions
             DoGetDirection();
         }
 
-
-
         ///  EXECUTE ///////////////////////////////////////////
-
 
         void DoGetDirection()
         {
@@ -89,8 +85,9 @@ namespace HutongGames.PlayMaker.Actions
 
             var posOrigin = originObject.transform.position;
             var posTarget = target.Value.transform.position;
-
-           // var posOrigin = space == Space.World ? originObject.transform.position : originObject.transform.localPosition;   // Use this INSTEAD of two lines above, for extra world/local space switch. NOTE: uncomment space var on top, too!
+          
+        // Use this INSTEAD of two lines above, for extra world/local space switch. NOTE: uncomment space var on top, too!
+           // var posOrigin = space == Space.World ? originObject.transform.position : originObject.transform.localPosition;  
            // var posTarget = space == Space.World ? target.Value.transform.position : target.Value.transform.localPosition;  
 
            storeDirectionX.Value =  Mathf.Abs(posTarget.x) - Mathf.Abs(posOrigin.x);
@@ -101,7 +98,6 @@ namespace HutongGames.PlayMaker.Actions
             {
                 storeIsRight.Value  = false;
             }
-
 
             storeIsUp.Value = true;
             if (storeDirectionY.Value < 0)
