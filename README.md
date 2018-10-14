@@ -2,7 +2,7 @@
 Custom Actions for Playmaker (Unity)
 
 ## Axis (Raw) To Velocity 2d
-This is a kind of basic movement controller for 2d games. The action gets the Axis value (i.e. player input), multiplies it with a value and powers velocity 2D with it. It can also fire off events based on direction, which is useful to flip the sprites. *Axis To Velocity 2d* uses the smoothed values, which is -- well -- smooth. *Axis Raw To Velocity 2d* doesn't use smoothing and results in a 'snappier' game feel. See Unity documentation on Input.GetAxis and Input.GetAxisRaw for more information.
+Two actions, one using GetAxis, the other GetAxisRaw. This is a kind of basic movement controller for 2d games. The action gets the axis value (i.e. player input), multiplies it with a value and powers velocity 2D with it. It can also fire off events based on direction, which is useful to flip the sprites. *Axis To Velocity 2d* uses the smoothed values. *Axis Raw To Velocity 2d* doesn't use smoothing and results in a 'snappier' game feel. See Unity documentation on Input.GetAxis and Input.GetAxisRaw for more information.
 
 ## Color Mix
 You can tint sprites using the color field in the inspector. This action makes it possible to tint "just a bit" towards a second color, that is mixing colors together, which is useful when you want to change the amount of tint based on some gameplay parameter, e.g. health bar changing color based on HP left, or when sprites use different "base" colours and you want to tint them a bit (for example to fake distance blue)
