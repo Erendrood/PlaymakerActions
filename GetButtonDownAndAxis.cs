@@ -8,7 +8,7 @@ using UnityEngine;
 namespace HutongGames.PlayMaker.Actions
 {
 	[ActionCategory(ActionCategory.Input)]
-	[Tooltip("When a Button is pressed, sends an event based on current axis direction, i.e. up+button, left+button etc.")]
+	[Tooltip("When a Button is pressed, sends an event based on current axis direction, i.e. up+button, left+button for fighting games, combos etc")]
 	public class GetButtonDownAndAxis : FsmStateAction
 	{
 		[RequiredField]
