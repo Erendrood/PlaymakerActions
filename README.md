@@ -1,5 +1,5 @@
 # Playmaker Actions
-Custom Actions for Playmaker (Unity)
+These are my custom actions for Playmaker (Unity).
 
 ## Axis (Raw) To Velocity 2d
 Two actions, one using GetAxis, the other GetAxisRaw. This is a kind of basic movement controller for 2d games. The action gets the axis value (i.e. player input), multiplies it with a value and powers velocity 2D with it. It can also fire off events based on direction, which is useful to flip the sprites. *Axis To Velocity 2d* uses the smoothed values. *Axis Raw To Velocity 2d* doesn't use smoothing and results in a 'snappier' game feel. See Unity documentation on Input.GetAxis and Input.GetAxisRaw for more information. [PM Forum Post](http://hutonggames.com/playmakerforum/index.php?topic=19504)
