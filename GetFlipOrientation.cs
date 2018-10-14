@@ -8,7 +8,7 @@ using UnityEngine;
 namespace HutongGames.PlayMaker.Actions
 {
     [ActionCategory(ActionCategory.Transform)]
-    [Tooltip("Gets the x Scale of a Game Object, sets a bool and fires off events according to orientation.")]
+    [Tooltip("Gets the x Scale of a Game Object, sets a bool and fires off events according to orientation, useful for side-scrollers, platformers where sprites are flipped.")]
     public class GetFlipOrientation: FsmStateAction
     {
         [RequiredField]
