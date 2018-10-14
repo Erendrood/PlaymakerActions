@@ -1,6 +1,9 @@
+// (c) Copyright HutongGames, LLC 2010-2018. All rights reserved.
+/*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
+// Created by Thor (Thore) Erendrood
+// For use with Puppet2D Asset
+
 using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
 
 namespace HutongGames.PlayMaker.Actions
 {
