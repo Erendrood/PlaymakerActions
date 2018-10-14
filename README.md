@@ -23,7 +23,9 @@ You look for a simple way for Button+Direction input? When a Button is pressed, 
 Typically, in side-scrollers, sprites are flipped by setting their scale to -1. This action is tailor-made to simply check that value to find out in which direction the sprite is facing.
 
 ## Get Relative Direction 2D (Events)
-Two actions, one with extra events, one without. You provide an origin GameObject, and a target. It calculates the direction and distance, as X and Y separated. When the target is left or down from origin, it returns the distances as negative numbers. I.e. -2/-2 means two leftwards and two downwards. When you want the total distance, try GetDistance (provided, or Ecosystem). The one with events also has, unsurpringsly, events that are fired based off direction. For how the values are interpreted, see the forum post. http://hutonggames.com/playmakerforum/index.php?topic=19490
+Two actions, one with extra events, one without. You provide an origin GameObject, and a target. It calculates the direction and distance, as X and Y separated. When the target is left or down from origin, it returns the distances as negative numbers. I.e. -2/-2 means two leftwards and two downwards. When you want the total distance, try GetDistance (provided, or Ecosystem). The one with events also has, unsurpringsly, events that are fired based off direction. For how the values are interpreted, see the forum post. [PM Forum Post](http://hutonggames.com/playmakerforum/index.php?topic=19490)
+
+
 
 ## SVG Set Order In Layer
 Set the 'Order in Layer' property in a SVG Importer SpriteRenderer. That's the original SVG Importer (paid asset), not the one that Unity is developing and confusingly named the same way.
@@ -32,7 +34,7 @@ Set the 'Order in Layer' property in a SVG Importer SpriteRenderer. That's the o
 Set the color property in a SVG SpriteRenderer. That's the original SVG Importer (paid asset), not the one that Unity is developing and confusingly named the same way.
 
 ## Set Order In Layer
-As it says on the tin: Gets the SpriteRenderer of suitable GameObject, and sets the "Order in Layer" property to an integer you provide. 
+As it says on the tin: Gets the SpriteRenderer of suitable GameObject, and sets the "Order in Layer" property to an integer you provide. [PM Forum Post](http://hutonggames.com/playmakerforum/index.php?topic=19379.msg84448#msg84448)
 
 ## Set Rigid Body Type 2D
 Allows to change Body Type and Simulated parameters of a Rigidbody 2D, e.g. from dynamic to kinematic and back.
