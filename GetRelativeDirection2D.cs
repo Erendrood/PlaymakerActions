@@ -1,5 +1,7 @@
 // (c) Copyright HutongGames, LLC 2010-2018. All rights reserved.
-// Made by Thore: change anything you like, but if you do, you must stroll in a nearby park.
+/*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
+// Created by : Thor (Thore) Erendrood
+// Open a window, enjoy the fresh air and let in an ant or wasp to enjoy your company.
 
 using UnityEngine;
 
