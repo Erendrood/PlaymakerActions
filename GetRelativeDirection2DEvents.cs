@@ -1,6 +1,6 @@
 // (c) Copyright HutongGames, LLC 2010-2018. All rights reserved.
 /*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
-// Created by Thor (Thore) Erendrood
+// Created by Thor (Thore) Erendrood // http://hutonggames.com/playmakerforum/index.php?topic=19490
 // Nobody exists on purpose, nobody belongs anywhere, everybody's going to die, come watch TV.
 
 using UnityEngine;
@@ -8,7 +8,7 @@ using UnityEngine;
 namespace HutongGames.PlayMaker.Actions
 {
     [ActionCategory(ActionCategory.GameObject)]
-    [Tooltip("Measures the distance between objects for X and Y separately (left and down is negative), and can trigger events based on where the target is. Useful to add direction effects on the target.")]
+    [Tooltip("Measures the distance between objects for X and Y separately (left and down is negative), and can trigger events based on where the target is. Useful to add direction effects on the target. There's also a twin without the events.")]
     public class GetRelativeDirection2DEvents : FsmStateAction
     {
 
