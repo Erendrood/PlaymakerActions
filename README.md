@@ -41,4 +41,4 @@ As it says on the tin: Gets the SpriteRenderer of suitable GameObject, and sets 
 There were 2 versions of set parent already. Uses another method, which was suggested by Unity when setting parent inside canvas. Better use the other versions, unless you got the same issue. [PM Forum Post](http://hutonggames.com/playmakerforum/index.php?topic=19470)
 
 ## Set Rigid Body Type 2D
-Allows to change Body Type and Simulated parameters of a Rigidbody 2D, e.g. from dynamic to kinematic and back.
+Allows to change Body Type and Simulated parameters of a Rigidbody 2D, e.g. from dynamic to kinematic and back. [PM Forum Post](http://hutonggames.com/playmakerforum/index.php?topic=19487)
