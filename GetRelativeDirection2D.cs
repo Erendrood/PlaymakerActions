@@ -1,6 +1,6 @@
 // (c) Copyright HutongGames, LLC 2010-2018. All rights reserved.
 /*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
-// Created by : Thor (Thore) Erendrood
+// Created by Thor (Thore) Erendrood // http://hutonggames.com/playmakerforum/index.php?topic=19490
 // Open a window, enjoy the fresh air and let in an ant or wasp to enjoy your company.
 
 using UnityEngine;
