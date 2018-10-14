@@ -1,5 +1,7 @@
-﻿// (c) Copyright HutongGames, LLC 2010-2018. All rights reserved.
-// Made By Thore with Five Tons of Flax.
+// (c) Copyright HutongGames, LLC 2010-2018. All rights reserved.
+/*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
+// Created by Thor (Thore) Erendrood
+// http://hutonggames.com/playmakerforum/index.php?topic=19536
 
 using System;
 using UnityEngine;
