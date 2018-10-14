@@ -1,6 +1,6 @@
 // (c) Copyright HutongGames, LLC 2010-2018. All rights reserved.
-// Made by Thore: change anything you like, but if you do, mind the squirrels.
-// If you want to store the button presses, just remove the /* and */ and // below at all the lines that mention the values.
+// Made by Thore: change anything you like, but if you do, think of the squirrels.
+// If you want to store the button presses, find the sister action.
 
 using UnityEngine;
 
@@ -14,16 +14,6 @@ namespace HutongGames.PlayMaker.Actions
         [Tooltip("The name of the axis. Set in the Unity Input Manager.")]
         public FsmString axisName;
 
-        /* 
-        [Tooltip("Set to True if the button is pressed.")]
-        [UIHint(UIHint.Variable)]
-        public FsmBool storePositivePressed;
-
-        [Tooltip("Set to True if the button is pressed.")]
-        [UIHint(UIHint.Variable)]
-        public FsmBool storeNegativePressed; 
-        */
-
         [ActionSection("Events")]
         [Tooltip("Event to send if Positive Button is pressed (e.g. right or up).")]
         public FsmEvent eventPositiveButton;
@@ -34,8 +24,7 @@ namespace HutongGames.PlayMaker.Actions
         public override void Reset()
         {
             axisName = "";
-            // storePositivePressed = null;
-            // storeNegativePressed = null;
+
         }
 
         public override void OnUpdate()
@@ -47,14 +36,12 @@ namespace HutongGames.PlayMaker.Actions
             if (Input.GetButtonDown(axisName.Value) && Input.GetAxisRaw(axisName.Value) > 0)
             {
                 Fsm.Event(eventPositiveButton);
-                // storePositivePressed.Value = true;
-                // storeNegativePressed.Value = false;
+
             }
             else if (Input.GetButtonDown(axisName.Value) && Input.GetAxisRaw(axisName.Value) < 0)
             {
                 Fsm.Event(eventNegativeButton);
-                // storePositivePressed.Value = false;
-                // storeNegativePressed.Value = true;
+
             }
 
 
