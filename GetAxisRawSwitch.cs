@@ -1,6 +1,6 @@
 // (c) Copyright HutongGames, LLC 2010-2018. All rights reserved.
 /*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
-// Adapted from GetAxis by : Thor (Thore) Erendrood
+// Adapted from GetAxis by Thor (Thore) Erendrood
 // Nevermind the neverminders.
 
 using UnityEngine;
