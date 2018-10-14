@@ -1,6 +1,6 @@
 // (c) Copyright HutongGames, LLC 2010-2018. All rights reserved.
 /*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
-// Created by : Thor (Thore) Erendrood
+// Created by Thor (Thore) Erendrood
 // change anything you like, but consult your pineal gland.
 
 
