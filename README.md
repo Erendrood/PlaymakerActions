@@ -25,6 +25,9 @@ Typically, in side-scrollers, sprites are flipped by setting their scale to -1. 
 ## Get Relative Direction 2D (Events)
 Two actions, one with extra events, one without. You provide an origin GameObject, and a target. It calculates the direction and distance, as X and Y separated. When the target is left or down from origin, it returns the distances as negative numbers. I.e. -2/-2 means two leftwards and two downwards. When you want the total distance, try GetDistance (provided, or Ecosystem). The one with events also has, unsurpringsly, events that are fired based off direction. For how the values are interpreted, see the forum post. [PM Forum Post](http://hutonggames.com/playmakerforum/index.php?topic=19490)
 
+## Puppet2D Flip
+If you are using Puppet2D, you probably want to flip the character to move in the opposite direction. This tiny action will help you do that. [PM Forum Post](http://hutonggames.com/playmakerforum/index.php?topic=14906)
+
 ## SVG Set Order In Layer
 Set the 'Order in Layer' property in a SVG Importer SpriteRenderer. That's the original SVG Importer (paid asset), not the one that Unity is developing and confusingly named the same way.
 
