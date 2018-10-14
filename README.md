@@ -31,8 +31,8 @@ Set the 'Order in Layer' property in a SVG Importer SpriteRenderer. That's the o
 ## SVG Sprite Color
 Set the color property in a SVG SpriteRenderer. That's the original SVG Importer (paid asset), not the one that Unity is developing and confusingly named the same way.
 
-# Set Distance Joint 2D
-An action to set everything of the Distance Joint component panel as it is, plus "enable" of the entire component for good measure.
+## Set Distance Joint 2D
+An action to set everything of the Distance Joint component panel as it is, plus "enable" of the entire component for good measure. [PM Forum Post](http://hutonggames.com/playmakerforum/index.php?topic=19536)
 
 ## Set Order In Layer
 As it says on the tin: Gets the SpriteRenderer of suitable GameObject, and sets the "Order in Layer" property to an integer you provide. [PM Forum Post](http://hutonggames.com/playmakerforum/index.php?topic=19379)
