@@ -32,8 +32,8 @@ namespace HutongGames.PlayMaker.Actions
         public override void Reset()
         {
             axisName = "";
-            // storePositiveReleased = null;
-            // storeNegativeReleased = null;
+            storePositiveReleased = null;
+            storeNegativeReleased = null;
         }
 
         public override void OnUpdate()
