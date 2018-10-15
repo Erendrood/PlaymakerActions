@@ -13,8 +13,8 @@ My cheaply adapted version that uses Input.GetAxisRaw instead of Input.GetAxis. 
 ## Get Axis Raw Switch
 Combines both *Get Axis* and *GetAxisRaw* in one action, with a bool to change which version is used. This is intended to be a prototype action to play around and get a sense of what works best, because normally you'll settle for one type. See Unity documentation on [Input.GetAxis](https://docs.unity3d.com/ScriptReference/Input.GetAxis.html) and [Input.GetAxisRaw](https://docs.unity3d.com/ScriptReference/Input.GetAxisRaw.html) for more information. [PM Forum Post](http://hutonggames.com/playmakerforum/index.php?topic=19333)
 
-## Get Axis To Button Down (Store)
-Take the axis you provide, and treat the directions as buttons ("Negative Button" and "Positive Button", and also the alternatives as listed in Input Manager). To do this right now, you would get the axis, store it into a variable, and then feed it into a float compare. This makes it in one go. The store version can also store if the button was pressed (it's a bit sleeker, but won't make much of a difference on performance). [PM Forum Post](http://hutonggames.com/playmakerforum/index.php?topic=19499)
+## Get Axis To Button Up/Down (Store)
+Take the axis you provide, and treat the directions as buttons ("Negative Button" and "Positive Button", and also the alternatives as listed in Input Manager). Button down is when the axis is moved in the direction, and button up is when the axis is released from direction. One set is simnple, the variants with ...Store has a few more options to store presses/releases in bools. [PM Forum Post](http://hutonggames.com/playmakerforum/index.php?topic=19499)
 
 ## Get Button Down And Axis
 You look for a simple way for Button+Direction input? When a Button is pressed, sends an event based on current axis direction, i.e. up+button, left+button for fighting games, combos etc. If you only want to use one direction (say, only up+button), simply leave the other one (down+button) blank.
@@ -42,6 +42,9 @@ As it says on the tin: Gets the SpriteRenderer of suitable GameObject, and sets 
 
 ## Set Parent 3
 There were 2 versions of set parent already. Uses another method, which was suggested by Unity when setting parent inside canvas. Better use the other versions, unless you got the same issue. [PM Forum Post](http://hutonggames.com/playmakerforum/index.php?topic=19470)
+
+## Set Platform Effector 2D
+The action to set almost everything in a Platform Effector 2D. To add/remove from Collider Mask, use Platform Effector 2D Collider Mask action. (from Ecosystem).
 
 ## Set Rigid Body Type 2D
 Allows to change Body Type and Simulated parameters of a Rigidbody 2D, e.g. from dynamic to kinematic and back. [PM Forum Post](http://hutonggames.com/playmakerforum/index.php?topic=19487)
