@@ -8,7 +8,7 @@ namespace HutongGames.PlayMaker.Actions
 {
     [ActionCategory(ActionCategory.Input)]
     [Tooltip("Button up, but treats axis input as buttons, i.e. uses Positive Button and Negative Button (e.g. up/down, left/right).")]
-    public class GetAxisToButtonUp : FsmStateAction
+    public class GetAxisToButtonUpStore : FsmStateAction
     {
         [RequiredField]
         [Tooltip("The name of the axis. Set in the Unity Input Manager.")]
